@@ -1,0 +1,160 @@
+h1 {
+    font-family: 'Microsoft Sans Serif';
+    color: rgb(250, 249, 252);
+}
+
+h3,
+.paragraph {
+    font-family: 'Microsoft Sans Serif';
+    color: rgb(137, 103, 138);
+}
+
+.icontro {
+    position: absolute;
+    top: 22px;
+    left: 105px;
+    width: 14px;
+    opacity: .8;
+}
+
+.paragraph {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-100%, -50%);
+}
+
+body {
+    display: flex;
+}
+
+.setion {
+    background-color: black;
+    width: 55%;
+    position: relative;
+    text-align: center;
+}
+
+.intro {
+    background-color: rgb(3, 3, 44);
+    width: 78%;
+}
+
+a {
+    width: 200px;
+    padding: 13 20px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.paragraph {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.button {
+    background-color: #0d329b;
+    border: none;
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    margin: 4px 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Microsoft Sans Serif';
+}
+
+.button:hover {
+    background-color: rgb(14, 0, 27);
+    color: white;
+}
+
+.paragraph {
+    padding: 0 20px;
+    font-size: 45px;
+}
+
+h3 {
+    padding: 0 22px
+}
+
+.info {
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+}
+
+.icon {
+    width: 117px;
+    padding: 4px;
+    opacity: .9;
+}
+
+.politica {
+    display: flex;
+}
+
+.use {
+    text-decoration: none;
+    color: rgba(154, 154, 156, 0.877);
+    margin: 4px 4px;
+    font-family: 'Microsoft Sans Serif';
+    width: 85px;
+}
+
+hr {
+    opacity: .3;
+}
+
+.use:hover {
+    color: red;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+b {
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    margin-right: 11px;
+}
+
+@media only screen and (max-width: 1270px) {
+    .paragraph {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-100%, -50%);
+    }
+
+    b {
+        display: grid;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .paragraph {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-100%, -50%);
+    }
+
+    b {
+        display: grid;
+    }
+}
